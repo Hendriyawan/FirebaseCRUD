@@ -1,0 +1,9 @@
+<resources>
+    <string name="google_storage_bucket" translatable="false">glanexlabs.appspot.com</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC1UxfXOADPip6e-F52sCTNTAnT_sARnvQ</string>
+    <string name="gcm_defaultSenderId" translatable="false">486196057050</string>
+    <string name="google_app_id" translatable="false">1:486196057050:android:7511682f06d91551</string>
+    <string name="default_web_client_id" translatable="false">486196057050-f15j627m4bcbhlrvim9c0hfgl7s54cjo.apps.googleusercontent.com</string>
+    <string name="google_api_key" translatable="false">AIzaSyC1UxfXOADPip6e-F52sCTNTAnT_sARnvQ</string>
+    <string name="firebase_database_url" translatable="false">https://glanexlabs.firebaseio.com</string>
+</resources>

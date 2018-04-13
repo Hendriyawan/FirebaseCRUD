@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:padding="10dp"
+    android:orientation="vertical">
+	
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	    <EditText
+		    android:id="@+id/nama_barang"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:singleLine="true"
+		    android:hint="Nama Barang"
+		    android:layout_weight="1.0" />
+	</android.support.design.widget.TextInputLayout>
+	
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	    <EditText
+		    android:id="@+id/merk_barang"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:singleLine="true"
+		    android:hint="Merk Barang"
+		    android:layout_weight="1" />
+	</android.support.design.widget.TextInputLayout>
+	
+	
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	    <EditText
+		    android:id="@+id/harga_barang"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:singleLine="true"
+		    android:hint="Harga Barang"
+		    android:inputType="number"
+		    android:layout_weight="1" />
+	</android.support.design.widget.TextInputLayout>
+    
+</LinearLayout>

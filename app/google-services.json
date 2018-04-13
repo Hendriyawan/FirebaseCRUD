@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "486196057050",
+    "firebase_url": "https://glanexlabs.firebaseio.com",
+    "project_id": "glanexlabs",
+    "storage_bucket": "glanexlabs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486196057050:android:7511682f06d91551",
+        "android_client_info": {
+          "package_name": "com.glabexlabs.learn.crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486196057050-f15j627m4bcbhlrvim9c0hfgl7s54cjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1UxfXOADPip6e-F52sCTNTAnT_sARnvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

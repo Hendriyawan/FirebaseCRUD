@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+		android:id="@+id/toolbar"
+		layout="@layout/toolbar" />
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/recycler_view"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scrollbars="vertical" />
+		
+		<!-- button tambah barang-->
+		<android.support.design.widget.FloatingActionButton xmlns:fab="http://schemas.android.com/apk/res-auto"
+			android:id="@+id/tambah_barang"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@android:drawable/ic_input_add"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:layout_marginRight="10dp"
+			android:layout_marginBottom="10dp"
+			fab:fabSize="normal" />
+		
+	</RelativeLayout>
+</LinearLayout>
